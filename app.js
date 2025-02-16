@@ -4,15 +4,15 @@ const shareBtn = document.querySelector('.share_contaier')
 shareBtn.addEventListener('click', (e) =>{
     e.stopPropagation();
     console.log('entre aqui')
-    if(dialogoDiv.style.visibility === 'hidden'){
+    if(dialogoDiv.style.display === 'none'){
         console.log('entre aqui tam')
-        dialogoDiv.style.visibility = 'visible'
+        dialogoDiv.style.display = 'flex'
     }else{
-        dialogoDiv.style.visibility = 'hidden'
+        dialogoDiv.style.display = 'none'
     }
     
 });
 
 document.addEventListener('click', ()=>{
-    dialogoDiv.style.visibility = 'hidden'
+    dialogoDiv.style.display = 'none'
 })
