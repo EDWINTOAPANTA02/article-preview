@@ -130,9 +130,11 @@ p,h3{
 @media (max-width: 495px){
    
     body{
-        background-color: aquamarine;
-        display: flex;
-        justify-content: center;
+        
+    }
+    p{
+        font-size: 1.2rem;
+        text-align: start;
     }
     .container{
         width: 90%;
@@ -156,8 +158,11 @@ p,h3{
     }
     .descripcion{
         min-width: 100%;
-        padding: 25px;
+        padding: 35px;
         margin-bottom: 25px;
+    }
+    .descripcion h1{
+        font-size: 1.3rem;
     }
     .autor_container{
         min-width: 90%;
